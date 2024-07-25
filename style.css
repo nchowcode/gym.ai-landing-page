@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.header{
+    display: flex;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 20px;
+}

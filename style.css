@@ -31,3 +31,17 @@
     gap: 30px;
     padding-right: 20px;
 }
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-us{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}

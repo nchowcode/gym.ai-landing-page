@@ -9,12 +9,15 @@
     font-style: normal;
 }
     
-  
+.hero-main{
+    font-size: 48px;
+    font-weight: bolder;
+}
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
+    font-size: 24px;
     color: #f9faf8;
 }
 
@@ -24,6 +27,7 @@
     justify-content: space-between;
     align-items: center;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .navbar {
@@ -46,10 +50,45 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+    background-color: #1F2937;
+    color: #f9faf8
 }
-
 
 .app-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.thumbnails-container{
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    padding-left: 100px;
+}
+
+.thumbnail {
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.customer-text {
+    font-style: italic;
+    color: #1F2937;
 }

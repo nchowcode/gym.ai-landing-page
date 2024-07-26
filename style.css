@@ -50,16 +50,18 @@
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px 300px;
     background-color: #1F2937;
     color: #f9faf8;
     gap: 100px;
 }
 
 .app-container {
+    padding: 50px 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
     
 }
 
@@ -71,7 +73,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
     padding-left: 100px;
 }
 
@@ -84,16 +87,18 @@
 .testimonial-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
+    padding: 100px;
 }
 
 .customer-text {
     font-style: italic;
     color: #1F2937;
 }
+
 
 .download {
     flex-shrink: 0;
@@ -102,4 +107,45 @@
     border-radius: 15px;
     padding: 10px;
     background-color: #3882f6 ;
+    color: white;
+    border-color: white;
+}
+
+.login-container {
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-items: center;
+}
+
+.mini-login-container {
+    background-color: #3882f6 ;
+    display: flex;
+    flex: auto;
+    gap: 400px;
+    padding: 50px 100px;
+    margin: 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: "extra-bold";
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+    padding: 30px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

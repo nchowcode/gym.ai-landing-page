@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     font-size: large;
+    color: #f9faf8;
 }
 
 .header{
@@ -22,6 +23,7 @@
     background-color: gold;
     justify-content: space-between;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .navbar {
@@ -44,4 +46,10 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+
+.app-container {
+    display: flex;
+    justify-content: space-between;
 }
